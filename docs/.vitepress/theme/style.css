@@ -1,0 +1,49 @@
+:root {
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f5f9ff;
+  --vp-c-bg-alt: #eef6ff;
+  --vp-c-text-1: #172033;
+  --vp-c-text-2: #5c6b82;
+  --vp-c-divider: #dbe8f7;
+  --vp-c-brand-1: #1570ef;
+  --vp-c-brand-soft: #e8f2ff;
+  --vp-c-default-soft: #f0f5fb;
+}
+
+html,
+body {
+  color-scheme: light;
+  background: linear-gradient(180deg, #f7fbff 0%, #ffffff 220px);
+  color: #172033;
+}
+
+.VPNav,
+.VPSidebar,
+.VPDocFooter,
+.VPDocAside {
+  display: none !important;
+}
+
+.VPContent {
+  padding-top: 0 !important;
+}
+
+.VPDoc {
+  padding: 0 !important;
+}
+
+.VPDoc .container,
+.VPDoc .content,
+.VPDoc .content-container {
+  max-width: none !important;
+}
+
+.VPDoc .content {
+  padding: 0 12px 24px !important;
+}
+
+@media (max-width: 720px) {
+  .VPDoc .content {
+    padding: 16px 24px 28px !important;
+  }
+}
